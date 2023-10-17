@@ -1,0 +1,372 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color:#fff;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#home{
+    display: flex;
+}
+#home #right1{
+    width:50%;
+    height: 100%;
+    background-color: #87b512;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+}
+#top{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    gap: 40px;
+    color: #fff;
+}
+#top i{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    color: #87b512;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+#right1 img{
+       position: absolute;
+       width: 600px;
+}
+#left1 h2{
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 50px;
+    color:#87b512;
+}
+#left1 p{
+    position:absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 25px;
+    color: #87b512;
+}
+#left1 button{
+    position:absolute;
+    top: 77%;
+    left: 10%;
+    font-size: 15px;
+    color: #fff;
+    background-color: #87b512;
+    border: none;
+    padding: 10px 20px;
+}
+#left1 img{
+    position: absolute;
+    width: 150px;
+    left: 10%;
+}
+#home2{
+    position: absolute;
+    top: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+#home2 h2{
+    top: 5%;
+    left: 40%;
+    position: relative;
+    font-size: 40px;
+    color: #87b512;
+}
+ #s i{
+    top: 10%;
+    left: 20%;
+    position: relative;
+    color: #87b512;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+#home2 p{
+    top: 15%;
+    left: 15%;
+    position: relative;
+    font-size: 15px;
+    color: #87b512;
+}
+#home2 h4{
+    top: 25%;
+    left: 18%;
+    width: 190px;
+    position: relative;
+    margin-top: 15px; 
+    color:#fff;
+    background-color: #87b512;
+}
+#home2 h5{
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    font-size: 20px;
+    opacity: 0.3;
+    color: #87b512;
+}
+#home2 h3{
+    position: absolute;
+    top: 47%;
+    left: 60%;
+    font-size: 20px;
+  color: #87b512;
+}
+#home2 h6{
+    position: absolute;
+    top: 47%;
+    left: 80%;
+    font-size: 25px;
+    opacity: 0.3;
+    color: #87b512;
+}
+#home2>i{
+    position: absolute;
+    top: 75%;
+    left: 61%;
+    font-size: 40px;
+  color: #87b512;
+}
+#home3{
+    position: absolute;
+    top: 150vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+#home3 #left3{
+    height:80vh;
+    width: 35%;
+    background-color: #87b512;
+    border-radius: 5px;
+    z-index: 999;
+}
+#right3 h1{
+    top: 15%;
+    position: absolute;
+    left: 60%;
+    font-size: 60px;
+    color:  #87b512;
+}
+#right3 p{
+    top: 45%;
+    position: absolute;
+    left: 61%;
+    font-size: 20px;
+    color:  #87b512;
+}
+#right3 button{
+    top: 60%;
+    position: absolute;
+    left: 61%;
+    font-size: 15px;
+    color: #fff;
+    background-color: #87b512;
+    padding: 8px 20px;
+    border: none;
+}
+#left3 img{
+    position: absolute;
+    left: 15%;
+}
+#home4{
+    position: absolute;
+   top: 220vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+#home4 #left4{
+    height:80vh;
+    width: 60%;
+    background-color:#eaece9;
+    border-radius: 5px;
+}
+#home4 #right4{
+    top: 10%;
+    left: 55%;
+    position: absolute;
+    height:80vh;
+    width: 45%;
+    background-color: #87b512;
+    border-radius: 5px;
+    z-index: 999;
+}
+#left4 h1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 40px;
+    color: #87b512;
+}
+#left4 p{
+     position: absolute;
+     left: 10%;
+     top: 60%;
+     color: #87b512;
+     font-size: 20px;
+}
+#left4 button{
+    position: absolute;
+    left: 10%;
+    top: 77%;
+    color: #fff;
+    background-color: #87b512;
+    padding: 8px 20px;
+    border: none;
+}
+#right4 img{
+    position: absolute;
+    top: 10%;
+    left: -20%;
+}
+#home5{
+    position: absolute;
+   top: 310vh;
+    width: 100%;
+    overflow: hidden;
+}
+#home5 h1{
+    position:relative;
+    left: 40%;
+    font-size: 50px;
+    color: #87b512;
+}
+#home5 p{
+    position:relative;
+    left: 40%;
+    font-size: 20px;
+    color: #87b512;
+    margin-top: 10px;
+}
+#home5 #cards{
+    display: flex;
+    margin-left: 58px;
+    gap: 30px;
+    padding-right: 58px;
+}
+.card{
+    width: 330px;
+    height: 430px;
+    left: 10%;
+    margin-top: 50px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    padding-top: 15px;
+    box-shadow: 0px 14px 30px -14px rgb(27, 27, 27);
+}
+.card img{
+    position: absolute;
+    left: 5%;
+    width: 80%;
+    top: 5%;
+    filter: drop-shadow(0px 5px 10px rgb(48, 46, 46));
+}
+ .s{
+    position:absolute;
+    top: 75%;
+    color: #87b512;
+}
+.card h2{
+    position: absolute;
+    top: 80%;
+    color: #87b512;
+}
+.card button{
+    background-color: #87b512;
+    color: #fff;
+    border: none;
+    z-index: 9999;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 8px 12px;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 30%;
+    left: 85%;
+    position: absolute;
+
+}
+.b i{
+    background: #87b512;
+    color: #fff;
+    padding: 8px;
+}
+#home5>button{
+    position: relative;
+    color: #fff;
+    background-color: #87b512;
+    border: none;
+    left: 48%;
+    font-size: 20px;
+    padding: 8px 20px;
+    margin-top: 70px;
+}
+#btm{
+    width: 100%;
+    height: 250px;
+    background-color: #87b512;
+    margin-top: 90px;
+    display: flex;
+}
+#e1 h5{
+    position: relative;
+    left:350px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+#e2 h5{
+    position: relative;
+    left: 450px ;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+#e3 h5{
+    position: relative;
+    left: 550px ;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+#e4 h5{
+    position: relative;
+    left: 650px ;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+#e{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 200px;
+    top: 78%;
+}
+#e i{
+    font-size: 30px;
+    color: #fff;
+}
